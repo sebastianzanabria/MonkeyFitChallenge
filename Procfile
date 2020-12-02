@@ -1,0 +1,1 @@
+web: gunicorn monkeyFitAPI.wsgi --log-file -
