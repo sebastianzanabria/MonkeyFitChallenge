@@ -4,12 +4,11 @@
         <title>Monkey Fit</title>
     </head>
     <body>
-        <h1>{{message}}</h1>
         <form action="{% url 'home' %}">
-            <label for="api_key">Google API key</label>
-            <input name="api_key" required><br>
-            <label for="q">Palabra clave</label>
-            <input name="q" required><br>
+            <label for="key">Google API key</label>
+            <input name="key" required><br>
+            <label for="input">Palabra clave</label>
+            <input name="input" required><br>
             <button type="submit">Buscar</button>
         </form>
     </body>
